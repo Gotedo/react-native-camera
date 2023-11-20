@@ -7,6 +7,7 @@ See this [issue](https://github.com/react-native-community/react-native-camera/i
 We are looking for maintainers for this package, or to depreciate this in favor of [react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) or [expo-camera](https://docs.expo.io/versions/latest/sdk/camera/), if nobody want to maintain this package.
 
 ## Docs
+
 Follow our docs here [https://react-native-camera.github.io/react-native-camera/](https://react-native-camera.github.io/react-native-camera/)
 
 ## Sponsors
@@ -109,11 +110,27 @@ We recommend using the releases from npm, however if you need some features that
 - We are now on [Open Collective](https://opencollective.com/react-native-camera#sponsor)! Contributions are appreciated and will be used to fund core contributors. [more details](#open-collective)
 - If you want to help us coding, join Expo slack https://slack.expo.io/, so we can chat over there. (#react-native-camera)
 
+#### Volta Setup
+
+In development, Volta is used for resolution of the Nodejs and Yarn versions. If you have multiple versions of Nodejs and Yarn, Volta pins the required Nodejs and Yarn versions for the repo and ensures that you do not need to set the Nodejs version for each repo you open.
+
+To get started do the following:
+
+1. On Unix systems (Linux and MacOS), run:
+
+   ```bash
+   curl https://get.volta.sh | bash
+   ```
+
+   On Windows, download and install the `msi` package from the latest release: https://github.com/volta-cli/volta/releases
+
+2. Close and re-open the terminal
+
 ##### Permissions
 
 To use the camera,
 
-1) On Android you must ask for camera permission:
+1. On Android you must ask for camera permission:
 
 ```java
   <uses-permission android:name="android.permission.CAMERA" />
@@ -129,15 +146,16 @@ To enable `video recording` feature you have to add the following code to the `A
 
 ![5j2jduk](https://cloud.githubusercontent.com/assets/2302315/22190752/6bc6ccd0-e0da-11e6-8e2f-6f22a3567a57.gif)
 
-2) On iOS, you must update Info.plist with a usage description for camera
+2. On iOS, you must update Info.plist with a usage description for camera
 
 ```xml
 ...
 <key>NSCameraUsageDescription</key>
 <string>Your own description of the purpose</string>
 ...
-	
+
 ```
+
 For more information on installation, please refer to [installation requirements](./docs/installation.md#requirements).
 
 For general introduction, please take a look into this [RNCamera](./docs/RNCamera.md).
