@@ -108,9 +108,5 @@
     "commitizen": {
       "path": "@commitlint/prompt"
     }
-  },
-  "volta": {
-    "node": "18.18.2",
-    "yarn": "4.0.1"
   }
 }

@@ -110,22 +110,6 @@ We recommend using the releases from npm, however if you need some features that
 - We are now on [Open Collective](https://opencollective.com/react-native-camera#sponsor)! Contributions are appreciated and will be used to fund core contributors. [more details](#open-collective)
 - If you want to help us coding, join Expo slack https://slack.expo.io/, so we can chat over there. (#react-native-camera)
 
-#### Volta Setup
-
-In development, Volta is used for resolution of the Nodejs and Yarn versions. If you have multiple versions of Nodejs and Yarn, Volta pins the required Nodejs and Yarn versions for the repo and ensures that you do not need to set the Nodejs version for each repo you open.
-
-To get started do the following:
-
-1. On Unix systems (Linux and MacOS), run:
-
-   ```bash
-   curl https://get.volta.sh | bash
-   ```
-
-   On Windows, download and install the `msi` package from the latest release: https://github.com/volta-cli/volta/releases
-
-2. Close and re-open the terminal
-
 ##### Permissions
 
 To use the camera,
